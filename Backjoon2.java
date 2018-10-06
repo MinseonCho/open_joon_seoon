@@ -1,6 +1,7 @@
 package test;
 
 public class Backjoon2 {
+	
 	public static final int NUM_SIZE = 10001;
 	
 	public static void main(String[] args) {
@@ -21,15 +22,15 @@ public class Backjoon2 {
 
 	}
 
-	public static int dCalculator(int num) {
-		int number = num; 
+	public static int dCalculator(int n) {
+		int number = n; 
 		int result = 0;
 		
 		while(number != 0) {
 			result += number%10;
 			number /= 10;
 		}
-		return result + num;
+		return result + n;
 	}
 
 }
