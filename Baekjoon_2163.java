@@ -6,6 +6,7 @@ public class Baekjoon_2163 {
 	
 
 	public static void main(String[] args) {
+
 		Scanner sc = new Scanner(System.in);
 		int dp[][] = new int[301][301];
 		int n,m;
